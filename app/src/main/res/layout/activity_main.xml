@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ffebee"
+    android:layout_margin="10dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Bangladesh"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:background="#ffcdd2"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cover_1"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bangladesh is a country in Southern Asia located on the Bay of Bengal, bordered by India on all sides except for a small border with Burma. Bangladesh has flat plains, and most of the country is situated on deltas of large rivers flowing from the Himalayas."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal"
+                android:weightSum="30"
+                android:layout_marginTop="15dp"
+                >
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/small_cover_1"
+                    android:layout_weight="10"
+                    android:scaleType="centerCrop"
+                    />
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/small_cover_4"
+                    android:layout_weight="10"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/small_cover_3" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:paddingTop="15dp"
+                android:text="My country, Bangladesh, is a land of vibrant culture, rich history, and immense natural beauty. Nestled in South Asia, it is known for its lush green landscapes, meandering rivers, and bustling cities. The country is home to a diverse population with a strong sense of unity and resilience. From the historical landmarks like the ancient city of Mahasthangarh to the modern marvels of Dhaka, Bangladesh presents a blend of the old and the new. The people of Bangladesh are renowned for their hospitality and warmth, embodying a spirit of generosity and friendliness. Our festivals, such as Pohela Boishakh and Durga Puja, are celebrated with great enthusiasm, showcasing our cultural richness."
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cover_2"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The name of our country is Bangladesh. It became independent in 1971. Dhaka is the capital of Bangladesh. It is a small country. It has a land area of 147570 square kum. There are 17 crore people t in the country. Bangladesh is mainly an agricultural country. Rice, jute, sugar cane and tea are the main crops of Bangladesh. Many kinds of fruits also grown here. Jack fruit, mangoes, bananas, pine apples, guavas and water melons are the most common fruit in Bangladesh. There are also many rivers in Bangladesh. The Padma, the Meghna, the Jamuna, the Karnaphuly are the main rivers in Bangladesh. There are many varities of fishes in these rivers. Bangladesh has many interesting places. The Sundarbans, Rangamati and Cox's Bazar are very attractive. Cox's Bazar is the longest sea beach in the world. It is about 120 k.m long."
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_marginTop="15dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cover_6"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Royal Bengal Tiger lives in the Sundarbans. Many people visit these interesting places every year. Bangladesh is a peaceful country. People from different communities live here in peace. I love my country very much."
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_marginTop="15dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:weightSum="30"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/like"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="LIKE"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/comment"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Comment"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/share"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="SHARE"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Click Hear to submit your opinion"
+                android:textSize="22dp"
+                android:backgroundTint="#ff1744"
+                android:layout_marginTop="20dp"
+                android:textStyle="normal"
+
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
