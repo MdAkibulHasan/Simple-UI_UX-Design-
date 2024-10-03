@@ -8,7 +8,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="#ffebee"
-    android:layout_margin="10dp"
+    android:layout_margin="10dp "
     >
 
     <ScrollView
